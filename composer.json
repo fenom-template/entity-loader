@@ -1,0 +1,24 @@
+{
+    "name": "fenom/entity-loader",
+    "type": "library",
+    "description": "Fenom extension: set you rule for tag and modifier loader",
+    "keywords": ["fenom", "loader", "tag"],
+    "license": "BSD-3",
+    "authors": [
+        {
+            "name": "Ivan Shalganov",
+            "email": "a.cobest@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.8"
+    },
+    "require-dev": {
+        "fenom/fenom": "2.*",
+        "phpunit/phpunit": "*",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Fenom\\": "src/" }
+    }
+}
